@@ -18,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
         myWebView = findViewById(R.id.myWebView);
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("https://akshayraichur.com/");
+        myWebView.loadUrl("https://testing-webview-url-redirection.vercel.app/");
     }
 }
